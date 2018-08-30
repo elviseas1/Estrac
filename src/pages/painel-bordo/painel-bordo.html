@@ -1,0 +1,49 @@
+<!--
+  Generated template for the PainelBordoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+
+            Painel de Bordo <img class="imgLogo" src="assets/imgs/logo.png" alt="">
+           
+        </ion-title>
+        
+      </ion-navbar>
+</ion-header>
+
+
+<ion-content class="containe" padding>
+
+  <ion-list>
+      <ion-item>
+          <ion-label color="primary" stacked>Estabelecimento:</ion-label>
+      <ion-select [(ngModel)]="estab" placeholder="Clique aqui">
+          <ion-option value="SPT19">SPT-19</ion-option>
+          <ion-option value="SPT21">SPT-21</ion-option>
+          <ion-option value="SPT22">SPT-22</ion-option>
+          <ion-option value="SPT24">SPT-24</ion-option>
+          <ion-option value="SPT25">SPT-25</ion-option>
+          <ion-option value="SPT26">SPT-26</ion-option>
+          <ion-option value="SPT27">SPT-27</ion-option>
+          <ion-option value="SPT28">SPT-28</ion-option>
+          <ion-option value="SPT30">SPT-30</ion-option>
+          <ion-option value="SPT31">SPT-31</ion-option>
+          <ion-option value="SPT32">SPT-32</ion-option>
+          <ion-option value="SPT45">SPT-45</ion-option>
+          <ion-option value="SPT80">SPT-80</ion-option>
+          <ion-option value="SPT82">SPT-82</ion-option>
+          <ion-option value="SPT92">SPT-92</ion-option>
+          
+      </ion-select>
+      </ion-item>
+  </ion-list>
+    
+    
+      <button ion-button block (click)="report()">Relatorio</button>
+   
+    
+</ion-content>

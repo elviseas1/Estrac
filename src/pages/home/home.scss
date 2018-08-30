@@ -1,3 +1,27 @@
-page-home {
+  .imgLogo {
+        width: 35px;
+        float:right;
+        
+    }
 
-}
+    .image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30%;
+ 
+    }
+
+    .pageHome {
+        background-image: linear-gradient(57deg,#ffffff 0%, #e0e0e0 46.63%,#007BAB 100%);
+        //background: #e0e0e0;
+        text-align: center;
+    } 
+
+    .container {
+        padding-top: 50px;
+        align-items: center;
+        text-align: center;
+        //background-color: rgb(221, 221, 221);
+    }
+
