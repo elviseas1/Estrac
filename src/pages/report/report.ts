@@ -17,11 +17,11 @@ import moment from 'moment';
 })
 export class ReportPage {
 
-  url1: string =      'http://189.89.164.118:8080/webrun/html_indicadores_tabela.rule?sys=ESG&estrutura_abrev=';
+  url1: string =      'http://link:8080/webrun/html_indicadores_tabela.rule?sys=ESG&estrutura_abrev=';
   url2: string = '&iesgrafico=S&iescomentario=N&tabela_abrev=OPERACIO&slide=&agrupar=&campos=&acumula=&nivela=N&tpagrupa=soma&paretomaior=';
-  urlPainel1: string = 'http://189.89.164.118:8080/webrun/html_indicadores.rule?sys=ESG&projeto_abrev=AGM_2018&estrutura_abrev=';
+  urlPainel1: string = 'http://link8:8080/webrun/html_indicadores.rule?sys=ESG&projeto_abrev=AGM_2018&estrutura_abrev=';
   urlPainel2: string = '&periodoini=&periodofim=&iesgrafico=&iescomentario=&slide=';
-  urlFarol1: string = 'http://189.89.164.118:8080/webrun/html_farol.rule?sys=ESG&projeto=AGM_2018&estrutura_abrev=';
+  urlFarol1: string = 'http://link:8080/webrun/html_farol.rule?sys=ESG&projeto=AGM_2018&estrutura_abrev=';
   urlFarol2: string = '&iesgrafico=&iescomentario=&slide=&dataref=';
 
   teste: string;
